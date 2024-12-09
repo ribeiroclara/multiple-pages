@@ -7,11 +7,18 @@ h1{
 .link {
     font-family: sans-serif;
     text-align: center;
+    color: aliceblue;
+}
+
+.link:hover {
+    color: #ccc;
 }
 
 p {
     margin: 100px;
     color: aliceblue;
+    font-size: 18px;
+    font-family: sans-serif;
 }
 
 img {
