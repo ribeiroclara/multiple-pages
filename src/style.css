@@ -1,44 +1,24 @@
-h1{
-    font-family: sans-serif;
-    text-align: center;
-    color: aliceblue;
+body {
+    background: #f8e8a6;
 }
 
-.link {
-    font-family: sans-serif;
-    text-align: center;
-    color: aliceblue;
-}
-
-.link:hover {
-    color: #ccc;
-}
-
+h1,
 p {
-    margin: 100px;
-    color: aliceblue;
-    font-size: 18px;
-    font-family: sans-serif;
+    text-align: center;
 }
 
-img {
-    max-width: 300px;
-    width: 100%;
-    border: 2px solid transparent;
+.croissant-photo {
+    max-width: 100%;
     border-radius: 10px;
-    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
     display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 20px;
+    margin: 30px auto;
 }
 
-.index {
-    background-color: rgb(236, 65, 133);
+footer {
+    text-align: center;
 }
-.contact{
-    background-color: rgb(238, 80, 53);
-}
-.photo{
-    background-color: rgb(153, 80, 244);
+
+footer a {
+    margin: 0 10px;
+    color: green;
 }
